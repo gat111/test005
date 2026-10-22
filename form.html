@@ -1,0 +1,22 @@
+<form action="https://api.staticforms.dev/submit" method="POST">
+  <input type="hidden" name="apiKey" value="sf_70874a18466256e81d50112d" />
+  <input type="hidden" name="subject" value="test test submission" />
+  <!-- 送信後に移動するページ -->
+ <input type="hidden" name="redirectTo"
+       value="http://127.0.0.1:5500/ok.html">
+  <label>Name
+    <input type="text" name="name" required />
+  </label>
+
+  <label>Email
+    <input type="email" name="email" required />
+  </label>
+
+  <label>Message
+    <textarea name="message" required></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
+
+
